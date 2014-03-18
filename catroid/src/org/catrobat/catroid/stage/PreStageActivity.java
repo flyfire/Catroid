@@ -412,7 +412,7 @@ public class PreStageActivity extends Activity {
 						connectingProgressDialog.dismiss();
 						resourceInitialized();
 						break;
-					case RobotAlbertBtCommunicator.STATE_CONNECTERROR:
+					case RobotAlbertBtCommunicator.STATE_CONNECT_ERROR:
 						Toast.makeText(PreStageActivity.this, R.string.bt_connection_failed, Toast.LENGTH_SHORT).show();
 						connectingProgressDialog.dismiss();
 						if (robotAlbert != null) {
