@@ -49,14 +49,14 @@ import android.content.res.Resources;
 import android.os.Handler;
 import android.util.Log;
 
-import org.catrobat.catroid.R;
-
 import java.io.InputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.UUID;
+
+import org.catrobat.catroid.R;
 
 //This code is based on the nxt-implementation
 public class RobotAlbertBtCommunicator extends RobotAlbertCommunicator {

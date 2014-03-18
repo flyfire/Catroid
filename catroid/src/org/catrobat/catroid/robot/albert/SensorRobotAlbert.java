@@ -28,8 +28,8 @@ import android.util.Log;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.catrobat.catroid.formulaeditor.SensorCustomEvent;
 import org.catrobat.catroid.formulaeditor.SensorCustomEventListener;
+import org.catrobat.catroid.formulaeditor.SensorCustomEvent;
 import org.catrobat.catroid.formulaeditor.Sensors;
 
 public final class SensorRobotAlbert {

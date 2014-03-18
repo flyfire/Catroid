@@ -61,7 +61,7 @@ public class ControlCommands {
 	private int rightLedRed;		// 0...255
 	private int frontLed;			// Front-LED 0...1
 	private int bodyLed;			// Body-LED 0...255
-	private byte sendFrameNumber;
+	private byte sendFrameNumber = 1;
 
 	public ControlCommands() {
 		buffer[0] = (byte) 0xAA;	// HEADER
